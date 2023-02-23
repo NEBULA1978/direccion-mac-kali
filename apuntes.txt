@@ -1,0 +1,72 @@
+
+Con igconfig vemos informacion de mis interfaces de red:
+inet:vemos direccion ip.
+ether: es dondeesta la direccion mac.
+
+Podemos cambiar la mac temporal(de forma temporal) no la permanetemente.
+
+PARAMETROS  macchanger:
+Usage: macchanger [options] device
+
+  -h,  --help                   Print this help
+  -V,  --version                Print version and exit
+  -s,  --show                   Print the MAC address and exit
+  -e,  --ending                 Don't change the vendor bytes
+  -a,  --another                Set random vendor MAC of the same kind
+  -A                            Set random vendor MAC of any kind
+  -p,  --permanent              Reset to original, permanent hardware MAC
+  -r,  --random                 Set fully random MAC
+  -l,  --list[=keyword]         Print known vendors
+  -b,  --bia                    Pretend to be a burned-in-address
+  -m,  --mac=XX:XX:XX:XX:XX:XX
+       --mac XX:XX:XX:XX:XX:XX  Set the MAC XX:XX:XX:XX:XX:XX
+
+Escribimos en consola para ver la direccion mac del pc:
+macchanger -s eth0
+Current MAC:00H0c:29a68581c (VMware. Inc.)
+Permanent MAC:00:0c:29:68:58:1c (VMware. Inc.)
+
+Para cambia la mac:
+macchanger -r wlx005a8f316e3f
+
+Para cambiar la mac por defecto como estaba:
+macchanger -p wlx005a8f316e3f
+
+Para introducir la mac de forma manual:
+macchanger -m 00:11:22:33:44:55  wlx005a8f316e3f
+
+/////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////
+
+Como Hacer un Escaneo de los Puertos Abiertos con NMAP
+bnap -p- -sV -sC --open -sS -vvv -n -Pn 192.16.8.0.2 -oN escaneo
+
+hoy vamos a aprender a utilizar nmap
+para poder hacer un escaneo completo de
+un objetivo Entonces yo debo utilizar
+estos parámetros y ahora aquí poner la
+dirección IP objetivo donde yo quiera
+pues escanear y queda Pues aquí pongo on
+para que todo este reporte que me lo
+guarde dentro de un fichero que se llame
+por ejemplo escaneo si yo ejecuto este
+Comando fijaros lo que ocurre que nos
+detecta puertos abiertos de la máquina
+objetivo que en este caso es esta de
+aquí esperamos un poco y Listo Ya lo
+tenemos ahora si hacemos un ls fijaros
+aquí tenemos el fichero que nos ha
+creado vamos a leerlo y aquí tenemos
+todo el reporte fijaros que nos
+encuentra el puerto abierto con la
+información respectiva Así es como se
+hace un escaneo con nmap de un objetivo
+
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+Cómo CREAR un PROGRAMA en PYTHON para ESCANEAR una Red con NMAP
+

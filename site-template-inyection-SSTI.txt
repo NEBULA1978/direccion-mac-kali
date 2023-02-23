@@ -1,0 +1,284 @@
+Hoy vamos a explicar la vulnerabilidad
+Server Site template injection en menos
+de un minuto.
+
+Bien esta vulnerabilidad funciona de la siguiente manera:
+ Dentro de un recuadro prueben poner por
+ejemplo dos por dos y luego doy en
+guardar y en la salida pues me aparece
+el resultado de dicho cálculo es que
+esta página web es vulnerable a este
+tipo de ataques.
+ Entonces si nos ocurre
+esto podemos hacer lo siguiente podemos
+poner en el navegador:
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection y entramos en esta página web
+y ahora entramos en esta categoría
+inyecciones básicas y aquí tenemos
+básicamente Cómo poder ejecutar comandos
+de manera remota por ejemplo podemos
+copiar y pegar esta línea:
+{{ self.__init__.__globals__.__builtins__.__import__('os').popen('id').read() }}
+ y ahora si voy
+a este recuadro y lo pego y por ejemplo
+ejecuto un ls para comprobar si puedo
+ejecutar comandos de manera remota y
+guardo Pues fijaros que estoy listando
+los archivos que se encuentran en la
+máquina víctima entonces tengo ejecución
+remota de comandos a través de la
+vulnerabilidad serversite template
+injection esto es todo suscríbete para
+más vídeos
+
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+
+Qué es la VULNERABILIDAD ETERNALBLUE y por qué es tan IMPORTANTE en WINDOW
+
+hoy vamos a conocer que es la
+vulnerabilidad eternal Blue y vamos a
+ver Por qué es tan peligrosa utilizando
+kali Linux Por ejemplo si yo estoy ante
+una máquina Windows que lo puedo
+comprobar con el comando Craft apex y
+vemos que es un Windows bastante antiguo
+pues podemos intuir que es vulnerable
+para comprobarlo pues ejecutamos este
+Comando nos dice que es vulnerable
+entonces lo que haremos será abrir metas
+Play y una vez está abierto Buscamos por
+la vulnerabilidad eternal Blue y por
+ejemplo vamos a utilizar este exploit
+ponemos use 1 ahora ponemos El Comando
+su options para hacer algunas
+configuraciones ponemos set rhost y
+ponemos la ip de la máquina víctima y
+luego ponemos set l-host y ponemos
+nuestra dirección IP y ahora ponemos
+roan y ya lanzamos el exploit esperamos
+un poco y ya tenemos acceso remoto a una
+máquina Windows antigua por ejemplo
+puedo hacer hundir para ver los archivos
+que se encuentran dentro y tenemos todos
+estos ya hemos accedido a una máquina
+Windows muy antigua que es vulnerable
+por eso es tan importante tener el
+sistema operativo actualizado
+Español (generados automáticamente)
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+
+ Qué es la VULNERABILIDAD UnrealIRCd y por qué es tan Peligrosa
+
+ hoy vamos a explotar una vulnerabilidad
+que se llama unreal irc sirve para poder
+ganar acceso remoto por ejemplo hasta
+máquina que es vulnerable Y si miramos
+en el reporte de enema pues vemos que es
+vulnerable a un real irc pues entonces
+yo puedo abrirme y vamos a buscar por el
+nombre de esta vulnerabilidad que se
+llama un real irc y vemos que nos
+encuentra pues una vulnerabilidad que ya
+existe un exploit ponemos use 0 para
+Aquí vamos a poner el show options
+establecemos la ip de la máquina
+objetivo ponemos set rhost y la
+dirección IP y ahora vamos a poner show
+palows porque es lo que faltaría por
+seleccionar y yo por ejemplo voy a
+utilizar este pues pongo set payload 5
+que es el número que tiene yo ahora
+dentro del palo Pues nos pide que ponga
+la dirección IP que está escuchando que
+es la de mi ordenador que básicamente
+pues es esta ponemos set el lejos y la
+IP una vez hecho esto ejecutamos el
+exploit con el comando Run ahora Se
+pondrá y ya lo tenemos Si hago un ls
+fijaros ya cargo los archivos y vemos
+Que si yo aquí creo pues un archivo en
+la máquina objetivo también se va a ver
+Esto es todo suscríbete para más vídeos
+
+/////////////////////////////////////////
+/////////////////////////////////////////
+/////////////////////////////////////////
+
+Cuales son los COMANDOS más IMPORTANTES de LINUX 
+
+comandos más importantes de Linux en un
+minuto para instalar un programa ponemos
+sudapt install y nombre del programa por
+ejemplo audacity Y si nos instalará para
+eliminarlo ponemos sudo apt remove y el
+nombre del programa audacity otra vez y
+ahora se nos eliminará para limpiar el
+terminal ponemos El Comando Clear ahora
+para saber el directorio actual podemos
+pwd y nos lo pone para cambiar el
+directorio usamos CD y luego ponemos el
+nombre del directorio que queremos ir
+por ejemplo escritorio Si queremos ir
+para atrás ponemos CD y estamos otra vez
+para listar el número de archivos que
+tenemos en un directorio ponemos ls y
+nos lo pone si ponemos ls-l va a ser más
+detallado Si queremos crear un nuevo
+directorio o carpeta ponemos el mercadir
+y el nombre de la carpeta por ejemplo
+Hola Si queremos Eliminar esta carpeta
+ponemos el remedy le ponemos Hola Si
+queremos crear un archivo sin más
+podemos por ejemplo Hola punto txt y
+podemos eliminarlo con el comando RM
+ponemos luego Hola punto txt y ahora se
+los elimina
+
+//////////////////////////////////////////
+//////////////////////////////////////////
+//////////////////////////////////////////
+
+Cómo Utilizar SHODAN para Analizar una IP Pública | Kali Linux 
+
+Para la ip de google.es:
+ping -c 1 www.gogle.es 
+RESULTADO DE LINEA ARRIBA:
+PING www.gogle.es (188.114.96.5) 56(84) bytes of data.
+
+64 bytes from 188.114.96.5 (188.114.96.5): icmp_seq=1 ttl=57 time=588 ms
+
+--- www.gogle.es ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 587.987/587.987/587.987/0.000 ms
+
+//////////////////////
+
+ Pues aquí me
+pone Cuál es la dirección IP de Google
+que en este caso pues es esta dirección
+IP Entonces si voy yo esto y lo pego en
+sodam pegamos Aquí esta dirección IP nos
+están diciendo la ubicación que en este
+caso se encuentra en Madrid aquí tenemos
+arriba el mapa aproximado y que
+pertenece a Google de esta manera hemos
+aprendido a Cómo encontrar una dirección
+IP Y luego cómo poder encontrar también
+la ubicación de esa dirección IP
+únicamente utilizando El Comando pingüino
+
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+
+CIBERSEGURIDAD | Cómo CREAR un DICCIONARIO Personalizado con CRUNCH
+
+
+
+    Abre una terminal en Kali Linux.
+    Escribe el siguiente comando para instalar Crunch si aún no lo tienes instalado:
+
+    sudo apt-get install crunch
+
+      Especifica los parámetros de Crunch para crear tu diccionario personalizado. Estos parámetros incluyen la longitud mínima y máxima de la palabra, los caracteres que deseas incluir y el nombre del archivo de salida.
+
+Por ejemplo, si deseas crear un diccionario de palabras de longitud de 8 a 10 caracteres que contengan letras minúsculas, números y algunos símbolos, puedes usar el siguiente comando:
+
+  crunch 8 10 abcdefghijklmnopqrstuvwxyz1234567890\!\@\#\$\%\^\&\* -o /ruta/al/nuevo/diccionario.txt
+
+  Para crear un diccionario personalizado con Crunch en Kali Linux, sigue estos pasos:
+
+    Abre una terminal en Kali Linux.
+    Escribe el siguiente comando para instalar Crunch si aún no lo tienes instalado:
+
+csharp
+
+sudo apt-get install crunch
+
+    Especifica los parámetros de Crunch para crear tu diccionario personalizado. Estos parámetros incluyen la longitud mínima y máxima de la palabra, los caracteres que deseas incluir y el nombre del archivo de salida.
+
+Por ejemplo, si deseas crear un diccionario de palabras de longitud de 8 a 10 caracteres que contengan letras minúsculas, números y algunos símbolos, puedes usar el siguiente comando:
+
+python
+
+crunch 8 10 abcdefghijklmnopqrstuvwxyz1234567890\!\@\#\$\%\^\&\* -o /ruta/al/nuevo/diccionario.txt
+
+Aquí, los parámetros son:
+
+    8 y 10: Longitud mínima y máxima de la palabra.
+    abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*: Caracteres que se incluirán en el diccionario. Los símbolos deben ser escapados con una barra invertida () para que se incluyan en el diccionario.
+    /ruta/al/nuevo/diccionario.txt: El archivo de salida donde se guardarán las palabras generadas.
+
+    Espera a que Crunch termine de crear tu diccionario personalizado. El tiempo que tome depende de la longitud del rango de caracteres y de la complejidad de las reglas que especifiques.
+
+Una vez que finalice la ejecución, tu nuevo diccionario personalizado estará guardado en el archivo especificado en el comando. Puedes usar este diccionario para pruebas de penetración, auditorías de seguridad, o cualquier otra aplicación que requiera una lista de palabras posibles.
+
+Para guardar los resultados generados por Crunch en un archivo, puedes especificar la ruta y el nombre del archivo de salida utilizando el parámetro "-o" seguido de la ruta y el nombre del archivo.
+
+Por ejemplo, para guardar los resultados en un archivo llamado "diccionario.txt" en la carpeta actual, puedes usar el siguiente comando:
+
+crunch 8 10 abcdefghijklmnopqrstuvwxyz1234567890\!\@\#\$\%\^\&\* -o diccionario.txt
+
+En este caso, el archivo de salida "diccionario.txt" se creará en la carpeta actual, y contendrá la lista de palabras generadas por Crunch. Si deseas guardar el archivo en una ubicación diferente, debes especificar la ruta completa del archivo. Por ej
+
+crunch 8 10 abcdefghijklmnopqrstuvwxyz1234567890\!\@\#\$\%\^\&\* -o /home/user/diccionario.txt
+
+Este comando creará un archivo llamado "diccionario.txt" en el directorio "/home/user/" y guardará la lista de palabras generadas por Crunch en ese archivo.
+
+//////////////////////////////////////////
+//////////////////////////////////////////
+//////////////////////////////////////////
+
+reamos un PROGRAMA en PYTHON para Generar CONTRASEÑAS Aleatorias y Seguras 
+
+import random
+import string
+
+def generar_contrasena(longitud):
+    caracteres = string.ascii_letters + string.digits + string.punctuation
+    contrasena = ''.join(random.choice(caracteres) for i in range(longitud))
+    return contrasena
+
+longitud = int(input("Ingrese la longitud de la contraseña deseada: "))
+contrasena = generar_contrasena(longitud)
+
+print("La contraseña generada es:", contrasena)
+
+Claro, aquí te muestro un ejemplo de programa en Python que genera contraseñas aleatorias y seguras:
+
+python
+
+import random
+import string
+
+def generar_contrasena(longitud):
+    caracteres = string.ascii_letters + string.digits + string.punctuation
+    contrasena = ''.join(random.choice(caracteres) for i in range(longitud))
+    return contrasena
+
+longitud = int(input("Ingrese la longitud de la contraseña deseada: "))
+contrasena = generar_contrasena(longitud)
+
+print("La contraseña generada es:", contrasena)
+
+Este programa utiliza las bibliotecas integradas de Python random y string. La función generar_contrasena() toma un argumento de longitud que se utiliza para definir la longitud de la contraseña que se generará.
+
+La variable caracteres contiene una cadena de todos los caracteres posibles que se utilizarán para generar la contraseña. Esta cadena incluye letras mayúsculas y minúsculas, dígitos y caracteres especiales.
+
+La función join() toma una lista de caracteres aleatorios generados por random.choice() y los une en una cadena única.
+
+Finalmente, la contraseña generada se imprime en la pantalla.
+
+Puedes personalizar la lista de caracteres utilizados para generar la contraseña ajustando la variable caracteres. Además, puedes envolver la llamada a la función generar_contrasena() en un ciclo while para generar varias contraseñas seguras de forma automática.
+
+
+//////////////////////////////////////////
+//////////////////////////////////////////
+//////////////////////////////////////////
+
