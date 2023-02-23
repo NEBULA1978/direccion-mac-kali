@@ -9,7 +9,10 @@ while :; do
     echo "1. Mostrar directorio"
     echo "2. Mostrar calendario"
     echo "3. Mostrar dato"
-    echo "4. Salir"
+    echo "5. Contraseña aleatoria"
+    echo "6. Contraseña aleatoria1"
+    echo "7. Contraseña aleatoria2"
+    echo "4. "
     echo ""
     #Escoger menu
     echo -n "Escoger opcion: "
@@ -29,6 +32,33 @@ while :; do
     3)
         echo "Mostrando datos"
         date
+        read foo
+        ;;
+    5)
+        echo "Contraseña aleatoria"
+        python3 contraseñas-aleatoria.py
+        echo ""
+        echo "Codigo script"
+        echo ""
+        cat contraseñas-aleatoria.py
+        read foo
+        ;;
+    6)
+        echo "Contraseña aleatoria1"
+        python3 contraseñas-aleatoria1.py | more
+        echo ""
+        echo "Codigo script"
+        echo ""
+        cat contraseñas-aleatoria1.py | more
+        read foo
+        ;;
+    7)
+        echo "Contraseña aleatoria2"
+        python3 contraseñas-aleatoria2.py
+        echo ""
+        echo "Codigo script"
+        echo ""
+        cat contraseñas-aleatoria2.py | more
         read foo
         ;;
     4) exit 0 ;;
