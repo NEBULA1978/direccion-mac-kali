@@ -1,0 +1,64 @@
+Supongamos que tenemos un archivo llamado mi_script.sh y queremos agregarlo a nuestro $PATH para poder ejecutarlo desde cualquier directorio sin tener que escribir la ruta completa. Para hacer esto, podemos seguir estos pasos:
+
+    Mueve el archivo mi_script.sh a una ubicación en tu $PATH, como /usr/local/bin/ o ~/bin/.
+
+shell
+
+$ sudo mv mi_script.sh /usr/local/bin/
+
+    Dale permisos de ejecución al archivo mi_script.sh.
+
+shell
+
+$ chmod +x /usr/local/bin/mi_script.sh
+
+Ahora, puedes ejecutar el script mi_script.sh desde cualquier directorio sin tener que escribir la ruta completa. Por ejemplo:
+
+ruby
+
+$ mi_script.sh
+
+Aquí hay un ejemplo de un script de Bash simple llamado mi_script.sh que imprime "¡Hola, mundo!" en la terminal:
+
+bash
+
+#!/bin/bash
+echo "¡Hola, mundo!"
+
+Recuerda que debes dar permisos de ejecución al archivo antes de ejecutarlo, como se describe anteriormente.
+Ramonet Pascualet
+si quiero enviar una carpeta con un script.sh dentro para ejecutar como el modo anterior
+
+Para enviar una carpeta con un script.sh dentro y agregarlo a tu $PATH, puedes seguir los siguientes pasos:
+
+    Comprime la carpeta en un archivo .tar.gz. Por ejemplo, si la carpeta se llama mi_carpeta, puedes usar el siguiente comando para comprimirla:
+
+ruby
+
+$ tar -czf mi_carpeta.tar.gz mi_carpeta/
+
+Esto creará un archivo mi_carpeta.tar.gz que contiene la carpeta mi_carpeta y su contenido.
+
+    Transfiere el archivo mi_carpeta.tar.gz a la máquina de destino.
+
+    Descomprime el archivo mi_carpeta.tar.gz en una ubicación en tu $PATH, como /usr/local/bin/ o ~/bin/. Puedes usar el siguiente comando para descomprimirlo:
+
+shell
+
+$ tar -xzf mi_carpeta.tar.gz -C /usr/local/bin/
+
+Esto extraerá la carpeta mi_carpeta y su contenido en la ubicación /usr/local/bin/.
+
+    Dale permisos de ejecución al archivo script.sh.
+
+shell
+
+$ chmod +x /usr/local/bin/mi_carpeta/script.sh
+
+Ahora puedes ejecutar el script script.sh desde cualquier directorio sin tener que escribir la ruta completa. Por ejemplo:
+
+shell
+
+$ mi_carpeta/script.sh
+
+Asegúrate de dar permisos de ejecución al archivo antes de ejecutarlo, como se describe anteriormente.
